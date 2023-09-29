@@ -9,18 +9,22 @@
   .tela-home-ASPE .div {
     background-color: #ffffff;
     overflow: hidden;
-    width: 1296px;
+    width: 100%;
     height: 1014px;
     position: relative;
   }
   
   .tela-home-ASPE .roda-p {
     position: absolute;
-    width: 1281px;
-    height: 326px;
+    width: 100%;
+    height: auto;
     top: 688px;
     left: 0;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
   }
   
   .tela-home-ASPE .text-wrapper {
@@ -34,6 +38,7 @@
     font-size: 13px;
     letter-spacing: 0;
     line-height: 20px;
+    margin: 5px;
   }
   
   .tela-home-ASPE .text-wrapper-2 {
@@ -654,3 +659,16 @@
     line-height: 36px;
   }
   
+  @media screen and (max-width: 768px) {
+    .tela-home-ASPE .div {
+        height: auto;
+    }
+    .tela-home-ASPE .roda-p {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tela-home-ASPE .text-wrapper {
+        width: 100%;
+        margin: 10px 0; 
+    }
+  }
