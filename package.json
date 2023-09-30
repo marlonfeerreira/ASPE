@@ -1,0 +1,22 @@
+{
+  "name": "aspe",
+  "version": "1.0.0",
+  "description": "Sistema desenvolvido para disciplina de Desenvolviemto Web Atualizacao 2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonfeerreira/ASPE.git"
+  },
+  "author": "marlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonfeerreira/ASPE/issues"
+  },
+  "homepage": "https://github.com/marlonfeerreira/ASPE#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

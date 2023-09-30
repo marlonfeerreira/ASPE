@@ -27,13 +27,15 @@
         <div class="autenticao">
           <div class="overlap-group-wrapper">
             <div class="overlap-group-2">
-              <button class="overlap" >Entrar</button>
+              <form id="loginForms">
+                <div class="text-wrapper-9">Autenticação:</div>
+                <div class="text-wrapper-8">Usuário:</div>
+                <input class="rectangle-4" id="username" required>
+                <div class="text-wrapper-7">Senha:</div>
+                <input class="rectangle-3" type="password" id="password" required>
+                <button class="overlap" type="submit" >Entrar</button>
+              </form>
               <div class="text-wrapper-6">Esqueci minha senha</div>
-              <input class="rectangle-4" text="password"></input>
-              <div class="text-wrapper-7">Senha:</div>
-              <input class="rectangle-3" type="password"></input>
-              <div class="text-wrapper-8">Usuário:</div>
-              <div class="text-wrapper-9">Autenticação:</div>
             </div>
           </div>
         </div>
@@ -47,3 +49,8 @@
     </div>
   </body>
 </html>
+<div style="position: fixed; bottom: 0; right: 0;  color: black; padding: 5px 10px;">
+    &copy; 2023 IFPE campus Belo Jardim
+  </div>
+<p id="loginMessage"></p>
+<script scr="app.js"></script>
