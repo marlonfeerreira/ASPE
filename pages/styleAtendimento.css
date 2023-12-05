@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color: #11581c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+
+.nav-logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-logo-IF{
+    width: 50%;
+    height: 100%;
+}
+.nav-title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+
+}
+.nav-menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.nav-ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    gap:25px;
+    color: #fff;
+}
+.nav-li{
+    text-decoration: none;
+}
+
+.li-a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 14px;
+}
+
+.nav-perfil{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.perfil-icon{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.perfil-title{
+    color: #fff;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 14px;
+}
+
+.container-form{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-box-title{
+    width: 80%;
+    height: 12%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.form-box-title p{
+    color: rgba(63, 63, 63, 0.87);
+    font-family: Arial;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 128.571% */
+}
+
+.form-content{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-content form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha-1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.label{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.l-nome{
+    width: 30%;
+}
+.l-matricula{
+    width: 20%;
+}
+.l-curso{
+    width: 25%;
+}
+.l-data{
+    width: 15%;
+}
+
+.label-p{
+    height: 40%;
+    font-size: 0.9rem;
+}
+
+.inputBox{
+    width: 100%;
+    height: 50%;
+    background-color:#E8F0FE ;
+    stroke-width: 1.5px;
+    stroke: #000;
+    fill: #E8F0FE;
+    border-radius: 5px;
+    border:#000 1.5px solid;
+}
+.linha-2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+
+}
+.l-solicitante{
+    width: 31%;
+}
+.l-setor{
+    width: 20%;
+}
+.l-periodo{
+    width: 10%;
+}
+.l-modalidade{
+    width: 15%;
+}
+.l-ano{
+    width: 11%;
+}
+
+.linha-3, .linha-4, .linha-5{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.l-relato, .l-atendimento, .l-encaminhamento{
+    width: 100%;
+    height: 100%;
+}
+.label-relato, .label-atendimento, .label-encaminhamento{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.9rem;
+}
+.ipt-relato, .ipt-atendimento, .ipt-encaminhamento{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:#E8F0FE ;
+    stroke-width: 1.5px;
+    stroke: #000;
+    fill: #E8F0FE;
+    border-radius: 5px;
+    border:#000 1.5px solid;
+    padding: 10px;
+    resize: none;
+}
+
+.linha-6{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.btn-form{
+    background-color: #35972F;
+    width: 15%;
+    height: 80%;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}

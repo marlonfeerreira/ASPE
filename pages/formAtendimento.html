@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleAtendimento.css">
+    <title>Atendimentos</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">
+            <img class="nav-logo-IF" src="/img/ifpe-logo.svg" />
+            <div class="nav-title">ASPE.IFPE</div>
+        </div>
+        <div class="nav-menu"> 
+            <div class="nav-perfil">
+                <img class="perfil-icon" src="/img/logo-perfil.svg" />
+                <p class="perfil-title"> Perfil </p>
+            </div>
+    
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a class="li-a" href="#">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a class="li-a" href="#">Relatórios</a>
+                </li>
+                <li class="nav-li">
+                    <a class="li-a" href="#">Sair</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-form">
+        <div class="form-box-title">
+            <p>
+                Registro de Atendimento ao Discente
+            </p>
+        </div>
+        <div class="form-content">
+            <form action="">
+                <div class="linha-1">
+                    <label class="label l-nome" for="nome">
+                        <div class="label-p">
+                            Nome do Discente:
+                        </div>
+                        <input  class="inputBox" type="text" name="nome" id="nome">
+                    </label>
+                    <label class="label l-matricula" for="matricula">
+                        <p class="label-p">
+                            Matrícula:
+                        </p>
+                        <input class="inputBox" type="text" name="matricula" id="matricula">
+                    </label>
+                    <label class="label l-curso" for="curso">
+                        <p class="label-p">
+                            Curso:
+                        </p>                        
+                        <input class=" inputBox" type="text" name="curso" id="curso">
+                    </label>
+                    <label class="label l-data" for="data">
+                        <p class="label-p">
+                            Data da Solicitação:
+                        </p>
+                        <input class="inputBox " type="date" name="data" id="data">
+                    </label>
+                </div>
+
+                <div class="linha-2">
+                    <label class="label l-solicitante" for="nome">
+                        <div class="label-p">
+                            Solicitante:
+                        </div>
+                        <input  class="inputBox" type="text" name="nome" id="nome">
+                    </label>
+                    <label class="label l-setor" for="matricula">
+                        <p class="label-p">
+                            Setor Solicitante:
+                        </p>
+                        <input class="inputBox" type="text" name="matricula" id="matricula">
+                    </label>
+                    <label class="label l-periodo" for="curso">
+                        <p class="label-p">
+                            Período:
+                        </p>                        
+                        <input class=" inputBox" type="text" name="curso" id="curso">
+                    </label>
+                    <label class="label l-modalidade" for="modalidade">
+                        <p class="label-p">
+                            Modalidade:
+                        </p>
+                        <input class="inputBox " type="text" name="modalidade" id="modalidade">
+                    </label>
+                    <label class="label l-ano" for="ano">
+                        <p class="label-p">
+                            ano
+                        </p>
+                        <input class="inputBox " type="date" name="ano" id="ano">
+                    </label>
+                </div>
+                <div class="linha-3">
+                    <label class="label l-relato" for="relato">
+                        <p class="label-relato">
+                            Relato da Solicitação
+                        </p>
+                        <textarea class="ipt-relato " type="text" name="relato" id="relato">
+                        </textarea>
+                    </label>
+                </div>
+                <div class="linha-4">
+                    <label class="label l-atendimento" for="atendimento">
+                        <p class="label-atendimento">
+                            Atendimento da Assessoria Pedagógica:
+                        </p>
+                        <textarea class="ipt-atendimento" type="text" name="atendimento" id="atendimento">
+                        </textarea>
+                    </label>
+                </div>
+                <div class="linha-5">
+                    <label class="label l-encaminhamento" for="encaminhamentos">
+                        <p class="label-encaminhamento">
+                            Encaminhamentos:
+                        </p>
+                        <textarea class="ipt-encaminhamento" type="text" name="encaminhamentos" id="encaminhamentos">
+                        </textarea>
+                    </label>
+                </div>
+
+                <div class="linha-6">
+                    <button class="btn-form">
+                        Registrar Atendimento
+                    </button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+</body>
+</html>
