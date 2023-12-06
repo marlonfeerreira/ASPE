@@ -272,7 +272,7 @@
     position: absolute;
     width: 1283px;
     height: 56px;
-    top: 14px;
+    top: 0px;
     left: -1px;
   }
   
@@ -295,19 +295,6 @@
     line-height: 14px;
   }
   
-  .tela-home-ASPE .perfil-XXXXXXXXXXX {
-    position: absolute;
-    width: 151px;
-    top: 18px;
-    left: 1071px;
-    font-family: "Barlow-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffffe6;
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: 14px;
-  }
-  
   .tela-home-ASPE .overlap {
     position: absolute;
     width: 30px;
@@ -319,12 +306,12 @@
   
   .tela-home-ASPE .ellipse {
     position: absolute;
-    width: 26px;
-    height: 26px;
-    top: 2px;
-    left: 2px;
+    width: 30px;
+    height: 30px;
+    top: 13px;
+    left: 1033px;
     background-color: #d9d9d9;
-    border-radius: 13px;
+    border-radius: 115px;
   }
   
   .tela-home-ASPE .IMAGE {
@@ -340,8 +327,8 @@
   
   .tela-home-ASPE .avatar-servidor {
     position: absolute;
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     top: 2px;
     left: 2px;
     object-fit: cover;
@@ -672,3 +659,6 @@
         margin: 10px 0; 
     }
   }
+
+
+  
